@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>直角普通分页页码</title>
+	<style type="text/css">
+		.page-normal{
+			text-align: center;
+			margin: 100px auto;
+			color: #ff6500;
+			font-size: 0;
+		}
+		.page-normal a{
+			border:1px solid #ff9600;
+			color: #ff6500;
+			text-decoration: none;
+		}
+		.page-normal a, .page-normal .page-current, .page-normal .page-disabled{
+			padding: 5px 7px;
+			font-size: 18px;
+			margin-left: 10px;
+		}
+		.page-normal a:hover{
+			border: 1px solid #ff6500;
+			background: #ffbe94;
+		}
+		.page-normal .page-current{
+			border: 1px solid #ff6500;
+			padding: 5px 7px;
+			color: #ff6500;
+			background: #ffbe94;
+		}
+		.page-normal .page-disabled{
+			border: 1px solid #ffe3e6;
+			color: #ffe3e6;
+		}
+		.page-disabled{
+			color: #ccc;
+		}
+		.page-normal i{
+			display: inline-block;		/*同时具有inline和block的特性，可以理解为保留inline特性，同时作为块状元素进行使用*/
+			width: 5px;
+			height: 9px;
+			background: url(bg_hotsale.gif);
+		}
+		.page-disabled i{
+			background-position: -67px -608px;
+			margin-left: 5px;
+		}
+		.page-next i{
+			background-position: -74px -608px;
+			margin-left:: 5px;
+		}
+
+	</style>
+</head>
+<!-- 行内元素中间有空隙，产生原因：换行符、tab、空格产生空隙
+解决方法：1、元素写成一行，2、设置font-size的值。 -->
+<body>
+	<div class="page-normal">
+		<span class="page-disabled"><i></i>上一页</span>
+		<span class="page-current">1</span>
+		<a href="#">2</a>
+		<a href="#">3</a>
+		<a href="#">4</a>
+		<a href="#">5</a>
+		<a href="#">6</a>
+		<a class="page-next" href="#">下一页<i></i></a>
+	</div>
+</body>
+</html>
