@@ -174,7 +174,7 @@
       <workItem from="1547712930318" duration="8226000" />
       <workItem from="1547732168857" duration="3329000" />
       <workItem from="1547778786525" duration="5890000" />
-      <workItem from="1547866007299" duration="4323000" />
+      <workItem from="1547866007299" duration="4639000" />
     </task>
     <task id="LOCAL-00001" summary="初级JavaScript信息滚动">
       <created>1547724702339</created>
@@ -197,11 +197,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547871304208</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JS放大镜">
+      <created>1547871562984</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547871562984</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38105000" />
+    <option name="totallyTimeSpent" value="38421000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -228,7 +235,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.497358" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49867898" weight="0.32941177" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50264204" side_tool="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50264204" side_tool="true" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49867898" weight="0.04411765" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
