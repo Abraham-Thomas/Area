@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <title>淘宝搜索</title>
+    <style type="text/css">
+        @font-face {
+            font-family: iconfont;
+            src: url("http://g.tbcdn.cn/tb/icon-font/1.1.5/iconfont.eot");
+            src: url("http://g.tbcdn.cn/tb/icon-font/1.1.5/iconfont.eot?#iefix") format("embedded-opentype"),
+            url("http://g.tbcdn.cn/tb/icon-font/1.1.5/iconfont.woff") format("woff"),
+            url("http://g.tbcdn.cn/tb/icon-font/1.1.5/iconfont.ttf") format("truetype"),
+            url("http://g.tbcdn.cn/tb/icon-font/1.1.5/iconfont.svg#uxiconfont") format("svg");
+        }
+        body{
+            font-size: 12px;
+            font-family: Tahoma, Arial, sans-serif ;
+        }
+        a{
+            text-decoration: none;
+        }
+        .search-container{
+            position: relative;
+        }
+        .search-tips{
+            float: right;
+            padding: 3px 0 0 0;
+        }
+        .search-button{
+            float: right;
+        }
+        .search-tips a{
+            color: #6c6c6c;
+        }
+        .btn-search{
+            width: 100px;
+            height: 45px;
+            margin-right: 10px;
+            text-align: center;
+            font-size: 20px;
+            color: #fff;
+            background: #FF4200 0 -200px;
+            border: 0;
+            border-radius: 0 20px 20px 0;
+            cursor: pointer;
+        }
+        .search-common-panel{
+            height: 39px;
+            background: #FF4200;
+            overflow: hidden;
+            padding: 3px 0 3px 77px;
+        }
+        .search-common-panel input{
+            height: 36px;
+            line-height: 36px;
+            width: 100%;
+            border: 0 none;
+            outline: 0;
+            background: #fff;
+        }
+        .search-common-panel i{
+            position: absolute;
+            top: 14px;
+            left: 86px;
+            z-index: 2;
+            color: #CCC;
+        }
+        .iconfont{
+            font-family: iconfont,serif;
+            font-size: 12px;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <div class="search-list"></div>
+        <div class="search-pannel">
+            <form>
+                <div class="search-tips">
+                    <a href="#">
+                        高级<br>搜索
+                    </a>
+                </div>
+                <div class="search-button">
+                    <button class="btn-search" type="submit">搜索</button>
+                </div>
+                <div class="search-common-panel">
+                    <label>
+                        <input type="text" x-webkit-speech="" />
+                        <i class="iconfont">ő</i>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
