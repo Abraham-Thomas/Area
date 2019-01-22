@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab864e41-728f-4aeb-aa25-894b8bd7a21e" name="Default Changelist" comment="This project has some trouble on that day we cann't solved.">
-      <change afterPath="$PROJECT_DIR$/JavaScript/搜索框的制作/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/搜索框的制作/style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="ab864e41-728f-4aeb-aa25-894b8bd7a21e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaScript/ToolTip特效/ToolTip特效.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/搜索框的制作/淘宝搜索.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/搜索框的制作/淘宝搜索.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/分页页码/bg_hotsale.gif" beforeDir="false" afterPath="$PROJECT_DIR$/分页页码/bg_hotsale.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/分页页码/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/分页页码/main.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,33 +20,21 @@
     <favorites_list name="Area" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/搜索框的制作/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="35" column="85" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="85" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaScript/搜索框的制作/style.js">
+        <entry file="file://$PROJECT_DIR$/JavaScript/ToolTip特效/ToolTip特效.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+            <state relative-caret-position="375">
+              <caret line="115" column="40" selection-start-line="115" selection-start-column="40" selection-end-line="115" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/搜索框的制作/淘宝搜索.html">
+        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-301">
-              <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+            <state relative-caret-position="205">
+              <caret line="17174" column="12" selection-start-line="17174" selection-start-column="12" selection-end-line="17174" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -86,6 +73,7 @@
         <option value="$PROJECT_DIR$/JavaScript/搜索框的制作/index.html" />
         <option value="$PROJECT_DIR$/JavaScript/搜索框的制作/淘宝搜索.html" />
         <option value="$PROJECT_DIR$/JavaScript/搜索框的制作/style.js" />
+        <option value="$PROJECT_DIR$/JavaScript/ToolTip特效/ToolTip特效.html" />
       </list>
     </option>
   </component>
@@ -100,7 +88,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,12 +104,13 @@
               <item name="Area" type="b2602c69:ProjectViewProjectNode" />
               <item name="Area" type="462c0819:PsiDirectoryNode" />
               <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="搜索框的制作" type="462c0819:PsiDirectoryNode" />
+              <item name="信息滚动" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -130,6 +118,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java Additions" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHub\Area" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -165,7 +158,9 @@
       <workItem from="1547890326648" duration="1752000" />
       <workItem from="1547942348556" duration="5978000" />
       <workItem from="1547953451222" duration="4682000" />
-      <workItem from="1547973274212" duration="2751000" />
+      <workItem from="1547973274212" duration="3088000" />
+      <workItem from="1547976409835" duration="1392000" />
+      <workItem from="1548161657987" duration="6517000" />
     </task>
     <task id="LOCAL-00001" summary="初级JavaScript信息滚动">
       <created>1547724702339</created>
@@ -202,11 +197,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547958129789</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="This project has some trouble on that day we cann't solved. 2019/1/20">
+      <created>1547976149176</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1547976149177</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53584000" />
+    <option name="totallyTimeSpent" value="61830000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -221,7 +223,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.14464994" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.14464994" />
       <window_info id="Structure" order="1" sideWeight="0.50153846" side_tool="true" weight="0.14464994" />
       <window_info id="Favorites" order="2" sideWeight="0.50153846" side_tool="true" weight="0.14464994" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -235,7 +237,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4953765" weight="0.32794118" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49867898" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50462353" side_tool="true" weight="0.32794118" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.4980185" visible="true" weight="0.40735295" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4980185" weight="0.40735295" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -292,12 +294,10 @@
     <MESSAGE value="搜索引擎" />
     <MESSAGE value="淘宝搜索引擎" />
     <MESSAGE value="This project has some trouble on that day we cann't solved." />
-    <option name="LAST_COMMIT_MESSAGE" value="This project has some trouble on that day we cann't solved." />
+    <MESSAGE value="This project has some trouble on that day we cann't solved. 2019/1/20" />
+    <option name="LAST_COMMIT_MESSAGE" value="This project has some trouble on that day we cann't solved. 2019/1/20" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaScript/分页页码/main.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/JS实现展开与收起效果/HTMLPage4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2040">
@@ -355,16 +355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/信息滚动/文字无缝滚动.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="47" column="124" selection-start-line="47" selection-start-column="124" selection-end-line="47" selection-end-column="124" />
-          <folding>
-            <element signature="n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/信息滚动/左右滚动.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
@@ -402,13 +392,6 @@
     <entry file="file://$PROJECT_DIR$/Hello.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/JS放大镜效果/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/信息滚动/marquee滚动效果（源代码）.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1462">
@@ -416,27 +399,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/搜索框的制作/淘宝搜索.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="149" column="9" selection-start-line="149" selection-start-column="9" selection-end-line="149" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/搜索框的制作/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/搜索框的制作/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="35" column="85" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="85" />
+        <state relative-caret-position="272">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/搜索框的制作/淘宝搜索.html">
+    <entry file="file://$PROJECT_DIR$/JavaScript/JS放大镜效果/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-301">
-          <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+        <state relative-caret-position="-850">
+          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/搜索框的制作/style.js">
+    <entry file="file://$PROJECT_DIR$/分页页码/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
+        <state relative-caret-position="-1967" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/信息滚动/文字无缝滚动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1607">
+          <caret line="47" column="124" selection-start-line="47" selection-start-column="124" selection-end-line="47" selection-end-column="124" />
+          <folding>
+            <element signature="n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="17174" column="12" selection-start-line="17174" selection-start-column="12" selection-end-line="17174" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/ToolTip特效/ToolTip特效.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="115" column="40" selection-start-line="115" selection-start-column="40" selection-end-line="115" selection-end-column="40" />
         </state>
       </provider>
     </entry>
