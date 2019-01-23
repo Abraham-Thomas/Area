@@ -61,9 +61,9 @@ img:hover{
 	top: 60px;
 	-webkit-transform: rotate(30deg);
 	   -moz-transform: rotate(30deg);
-		-ms-transform: rotate(30deg);
-		 -o-transform: rotate(30deg);
-			transform: rotate(30deg);
+		 -ms-transform: rotate(30deg);
+		  -o-transform: rotate(30deg);
+			  transform: rotate(30deg);
 }
 .pic4{
 	left: 20px;
