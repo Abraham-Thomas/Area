@@ -1,11 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab864e41-728f-4aeb-aa25-894b8bd7a21e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaScript/ToolTip特效/ToolTip特效.html" afterDir="false" />
+    <list default="true" id="ab864e41-728f-4aeb-aa25-894b8bd7a21e" name="Default Changelist" comment="ToolTip特效JS实现">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/分页页码/bg_hotsale.gif" beforeDir="false" afterPath="$PROJECT_DIR$/分页页码/bg_hotsale.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/分页页码/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/分页页码/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/倒计时时差（源代码）/demo2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/倒计时时差（源代码）/image/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/倒计时时差（源代码）/image/._kaoyan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/倒计时时差（源代码）/image/._new.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/倒计时时差（源代码）/image/._new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/倒计时时差（源代码）/image/._product.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/倒计时时差（源代码）/image/kaoyan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/倒计时时差（源代码）/image/new.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/倒计时时差（源代码）/image/new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/倒计时时差（源代码）/image/product.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/倒计时时差（源代码）/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/简单时间显示（源代码）/demo1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/简单时间显示（源代码）/image/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/简单时间显示（源代码）/image/._kaoyan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/简单时间显示（源代码）/image/._new.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/简单时间显示（源代码）/image/._new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/简单时间显示（源代码）/image/._product.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/简单时间显示（源代码）/image/kaoyan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/简单时间显示（源代码）/image/new.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/简单时间显示（源代码）/image/new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/简单时间显示（源代码）/image/product.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/简单时间显示（源代码）/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/限时抢购（源代码）/demo3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/限时抢购（源代码）/image/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/限时抢购（源代码）/image/._kaoyan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/限时抢购（源代码）/image/._new.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/限时抢购（源代码）/image/._new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/限时抢购（源代码）/image/._product.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/限时抢购（源代码）/image/kaoyan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/限时抢购（源代码）/image/new.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/限时抢购（源代码）/image/new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/限时抢购（源代码）/image/product.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS倒计时/限时抢购（源代码）/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS实现展开与收起效果/HTMLPage1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS实现展开与收起效果/HTMLPage2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS实现展开与收起效果/HTMLPage3_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS实现展开与收起效果/HTMLPage3_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS实现展开与收起效果/HTMLPage4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS放大镜效果/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS放大镜效果/macbook-big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/JS放大镜效果/macbook-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/ToolTip特效/ToolTip特效.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/信息滚动/marquee滚动效果（源代码）.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/信息滚动/左右滚动.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/信息滚动/文字无缝滚动.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/信息滚动/间歇性滚动.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第一章/slidedoor/images/door1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第一章/slidedoor/images/door2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第一章/slidedoor/images/door3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第一章/slidedoor/images/door4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第一章/slidedoor/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第一章/slidedoor/scripts/slidingdoors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第一章/slidedoor/styles/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第一章/slidedoor/styles/slidingdoors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第三章/badDomReady.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第三章/domNotReady.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第三章/domReady.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第三章/domReady.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第三章/example/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第三章/example/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第三章/example/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第三章/example/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第三章/example/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第三章/example/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第三章/example/example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第三章/jQueryDomReady.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第三章/jquery-1.11.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第三章/windowOnload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第二章/doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第二章/doc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第二章/example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第二章/nodeName-nodeValue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第二章/nodeType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第五章/inheritance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第五章/nestedRule.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第四章/contains/contains.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第四章/contains/containsFixed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第四章/isElement/example1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第四章/isElement/example2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第四章/isHTML/example1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第四章/isHTML/example2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第四章/isXML/example1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第四章/isXML/example2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/初识DOM/第四章/isXML/example3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/搜索框的制作/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/搜索框的制作/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/搜索框的制作/淘宝搜索.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/焦点图轮播/demo-jq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/焦点图轮播/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/焦点图轮播/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/焦点图轮播/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/焦点图轮播/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/焦点图轮播/img/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/焦点图轮播/index.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,26 +111,7 @@
     <favorites_list name="Area" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaScript/ToolTip特效/ToolTip特效.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="115" column="40" selection-start-line="115" selection-start-column="40" selection-end-line="115" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="17174" column="12" selection-start-line="17174" selection-start-column="12" selection-end-line="17174" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,6 +122,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
@@ -104,7 +177,7 @@
               <item name="Area" type="b2602c69:ProjectViewProjectNode" />
               <item name="Area" type="462c0819:PsiDirectoryNode" />
               <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="信息滚动" type="462c0819:PsiDirectoryNode" />
+              <item name="初级" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -116,8 +189,8 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java Additions" />
+    <property name="last_opened_file_path" value="E:/WebstormProjects" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -160,7 +233,22 @@
       <workItem from="1547953451222" duration="4682000" />
       <workItem from="1547973274212" duration="3088000" />
       <workItem from="1547976409835" duration="1392000" />
-      <workItem from="1548161657987" duration="6517000" />
+      <workItem from="1548161657987" duration="6716000" />
+      <workItem from="1548171283292" duration="148000" />
+      <workItem from="1548213501495" duration="140000" />
+      <workItem from="1548213899832" duration="67000" />
+      <workItem from="1548213994141" duration="38000" />
+      <workItem from="1548214131582" duration="99000" />
+      <workItem from="1548214864431" duration="30000" />
+      <workItem from="1548215482119" duration="24000" />
+      <workItem from="1548215527562" duration="13000" />
+      <workItem from="1548216071973" duration="35000" />
+      <workItem from="1548216129607" duration="6000" />
+      <workItem from="1548216432493" duration="10000" />
+      <workItem from="1548216605632" duration="53000" />
+      <workItem from="1548216687124" duration="564000" />
+      <workItem from="1548230055960" duration="182000" />
+      <workItem from="1548230266463" duration="2588000" />
     </task>
     <task id="LOCAL-00001" summary="初级JavaScript信息滚动">
       <created>1547724702339</created>
@@ -204,11 +292,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547976149177</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ToolTip特效JS实现">
+      <created>1548171031679</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1548171031679</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61830000" />
+    <option name="totallyTimeSpent" value="66026000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -221,7 +316,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.14464994" />
       <window_info id="Structure" order="1" sideWeight="0.50153846" side_tool="true" weight="0.14464994" />
@@ -295,7 +389,8 @@
     <MESSAGE value="淘宝搜索引擎" />
     <MESSAGE value="This project has some trouble on that day we cann't solved." />
     <MESSAGE value="This project has some trouble on that day we cann't solved. 2019/1/20" />
-    <option name="LAST_COMMIT_MESSAGE" value="This project has some trouble on that day we cann't solved. 2019/1/20" />
+    <MESSAGE value="ToolTip特效JS实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="ToolTip特效JS实现" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/JavaScript/JS实现展开与收起效果/HTMLPage4.html">
@@ -389,9 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hello.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/信息滚动/marquee滚动效果（源代码）.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1462">
@@ -447,17 +539,46 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="326">
           <caret line="17174" column="12" selection-start-line="17174" selection-start-column="12" selection-end-line="17174" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/WebstormProjects/Area/Canvas时钟/clock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/ToolTip特效/ToolTip特效.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="-139">
           <caret line="115" column="40" selection-start-line="115" selection-start-column="40" selection-end-line="115" selection-end-column="40" />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26364848" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
