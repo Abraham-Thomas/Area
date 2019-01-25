@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab864e41-728f-4aeb-aa25-894b8bd7a21e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bootstarp/first.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Area.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Area.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstarp/Practice/First day/demo1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstarp/first.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstarp/Practice/First day/first.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bootstarp/first.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bootstarp/Practice/First day/first.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="54">
+              <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bootstarp/Practice/First day/demo1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -69,10 +78,11 @@
         <option value="$PROJECT_DIR$/JavaScript/初级/沟通和夫人.html" />
         <option value="$PROJECT_DIR$/JavaScript/中级/一同回顾.html" />
         <option value="$PROJECT_DIR$/Bootstarp/first.html" />
+        <option value="$PROJECT_DIR$/Bootstarp/Practice/First day/demo1.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -90,11 +100,6 @@
               <item name="Area" type="b2602c69:ProjectViewProjectNode" />
               <item name="Area" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Area" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Area" type="462c0819:PsiDirectoryNode" />
-              <item name="Bootstarp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -110,6 +115,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHub\Area\Bootstarp\Practice\First day" />
       <recent name="E:\GitHub\Area" />
     </key>
   </component>
@@ -165,7 +171,8 @@
       <workItem from="1548216687124" duration="564000" />
       <workItem from="1548230055960" duration="182000" />
       <workItem from="1548230266463" duration="3245000" />
-      <workItem from="1548408804652" duration="1778000" />
+      <workItem from="1548408804652" duration="2167000" />
+      <workItem from="1548420742459" duration="3690000" />
     </task>
     <task id="LOCAL-00001" summary="初级JavaScript信息滚动">
       <created>1547724702339</created>
@@ -234,7 +241,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68461000" />
+    <option name="totallyTimeSpent" value="72540000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -246,9 +253,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.14464994" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.2324967" />
       <window_info id="Structure" order="1" sideWeight="0.50153846" side_tool="true" weight="0.14464994" />
       <window_info id="Favorites" order="2" sideWeight="0.50153846" side_tool="true" weight="0.14464994" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -381,10 +388,17 @@
     <entry file="file://$PROJECT_DIR$/JavaScript/ToolTip特效/ToolTip特效.html" />
     <entry file="file://$PROJECT_DIR$/JavaScript/初级/沟通和夫人.html" />
     <entry file="file://$PROJECT_DIR$/JavaScript/中级/一同回顾.html" />
-    <entry file="file://$PROJECT_DIR$/Bootstarp/first.html">
+    <entry file="file://$PROJECT_DIR$/Bootstarp/Practice/First day/first.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="54">
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bootstarp/Practice/First day/demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
         </state>
       </provider>
     </entry>
