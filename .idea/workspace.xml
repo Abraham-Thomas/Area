@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab864e41-728f-4aeb-aa25-894b8bd7a21e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bootstarp/Practice/Third day/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstarp/Practice/Second day/demo1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstarp/Practice/Second day/demo1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bootstarp/Practice/Third day/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstarp/Practice/Third day/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +22,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bootstarp/Practice/Third day/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="326">
+              <caret line="297" column="9" lean-forward="true" selection-start-line="297" selection-start-column="9" selection-end-line="297" selection-end-column="9" />
+              <folding>
+                <element signature="e#11820#11827#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,6 +40,11 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>divide</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -85,6 +92,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,7 +121,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,7 +192,10 @@
       <workItem from="1548466290503" duration="16000" />
       <workItem from="1548466327515" duration="3976000" />
       <workItem from="1548481725418" duration="1291000" />
-      <workItem from="1548598254853" duration="4870000" />
+      <workItem from="1548598254853" duration="4911000" />
+      <workItem from="1548649817556" duration="34000" />
+      <workItem from="1548653829052" duration="4299000" />
+      <workItem from="1548679528174" duration="4998000" />
     </task>
     <task id="LOCAL-00001" summary="初级JavaScript信息滚动">
       <created>1547724702339</created>
@@ -254,7 +264,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83360000" />
+    <option name="totallyTimeSpent" value="92732000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -272,7 +282,7 @@
       <window_info id="Structure" order="1" sideWeight="0.50153846" side_tool="true" weight="0.14464994" />
       <window_info id="Favorites" order="2" sideWeight="0.50153846" side_tool="true" weight="0.14464994" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -416,12 +426,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bootstarp/用于生产环境的Bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Bootstarp/用于生产环境的Bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Bootstarp/用于生产环境的Bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -442,8 +452,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bootstarp/Practice/Third day/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        <state relative-caret-position="326">
+          <caret line="297" column="9" lean-forward="true" selection-start-line="297" selection-start-column="9" selection-end-line="297" selection-end-column="9" />
+          <folding>
+            <element signature="e#11820#11827#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
