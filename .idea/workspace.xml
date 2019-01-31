@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab864e41-728f-4aeb-aa25-894b8bd7a21e" name="Default Changelist" comment="">
+    <list default="true" id="ab864e41-728f-4aeb-aa25-894b8bd7a21e" name="Default Changelist" comment="2019/1/23">
+      <change afterPath="$PROJECT_DIR$/JavaScript/初级/网站Sidebar/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/初级/网站Sidebar/demostyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bootstarp/Practice/Third day/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bootstarp/Practice/Third day/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,15 +19,21 @@
     <favorites_list name="Area" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bootstarp/Practice/Third day/index.html">
+        <entry file="file://$PROJECT_DIR$/JavaScript/初级/网站Sidebar/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="297" column="9" lean-forward="true" selection-start-line="297" selection-start-column="9" selection-end-line="297" selection-end-column="9" />
-              <folding>
-                <element signature="e#11820#11827#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="212">
+              <caret line="81" column="41" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript/初级/网站Sidebar/demostyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-301">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -38,6 +45,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -78,6 +86,8 @@
         <option value="$PROJECT_DIR$/Bootstarp/Practice/First day/demo1.html" />
         <option value="$PROJECT_DIR$/Bootstarp/Practice/Second day/demo1.html" />
         <option value="$PROJECT_DIR$/Bootstarp/Practice/Third day/index.html" />
+        <option value="$PROJECT_DIR$/JavaScript/初级/网站Sidebar/demostyle.css" />
+        <option value="$PROJECT_DIR$/JavaScript/初级/网站Sidebar/demo.html" />
       </list>
     </option>
   </component>
@@ -92,7 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,30 +112,33 @@
             <path>
               <item name="Area" type="b2602c69:ProjectViewProjectNode" />
               <item name="Area" type="462c0819:PsiDirectoryNode" />
-              <item name="Bootstarp" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Area" type="b2602c69:ProjectViewProjectNode" />
               <item name="Area" type="462c0819:PsiDirectoryNode" />
-              <item name="Bootstarp" type="462c0819:PsiDirectoryNode" />
-              <item name="Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="初级" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Area" type="b2602c69:ProjectViewProjectNode" />
               <item name="Area" type="462c0819:PsiDirectoryNode" />
-              <item name="Bootstarp" type="462c0819:PsiDirectoryNode" />
-              <item name="用于生产环境的Bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="初级" type="462c0819:PsiDirectoryNode" />
+              <item name="网站Sidebar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="E:/WebstormProjects" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -195,7 +207,9 @@
       <workItem from="1548598254853" duration="4911000" />
       <workItem from="1548649817556" duration="34000" />
       <workItem from="1548653829052" duration="4299000" />
-      <workItem from="1548679528174" duration="4998000" />
+      <workItem from="1548679528174" duration="5222000" />
+      <workItem from="1548896679458" duration="19000" />
+      <workItem from="1548940698752" duration="3430000" />
     </task>
     <task id="LOCAL-00001" summary="初级JavaScript信息滚动">
       <created>1547724702339</created>
@@ -264,7 +278,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92732000" />
+    <option name="totallyTimeSpent" value="96405000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -277,6 +291,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.2324967" />
       <window_info id="Structure" order="1" sideWeight="0.50153846" side_tool="true" weight="0.14464994" />
@@ -426,12 +441,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bootstarp/用于生产环境的Bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css.map">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Bootstarp/用于生产环境的Bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css.map">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Bootstarp/用于生产环境的Bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -452,11 +467,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bootstarp/Practice/Third day/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="297" column="9" lean-forward="true" selection-start-line="297" selection-start-column="9" selection-end-line="297" selection-end-column="9" />
-          <folding>
-            <element signature="e#11820#11827#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="387">
+          <caret line="297" column="9" selection-start-line="297" selection-start-column="9" selection-end-line="297" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/初级/网站Sidebar/demostyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-301">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/初级/网站Sidebar/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="81" column="41" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
         </state>
       </provider>
     </entry>
