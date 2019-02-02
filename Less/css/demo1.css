@@ -1,0 +1,8 @@
+@charset "utf-8";
+.tudou_main {
+  width: 616px;
+}
+.title {
+  height: 62px;
+  border: solid 1px #d0d0d0;
+}
