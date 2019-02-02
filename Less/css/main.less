@@ -1,0 +1,65 @@
+@charset "utf-8";
+body{
+    background-color: #f1f1f1;
+}
+ul{
+    margin: 0;
+    padding: 20px;
+}
+div{
+    height: 100px;
+}
+
+/*我是会被保留的*/
+
+//我是不会被保留的 
+
+/*Less中的变量*/
+@test_width:300px;
+@test_height:200px;
+.box{
+    width: @test_width;
+    height: 200px;
+    border: 2px solid #f1f;
+    background-color: green;
+}
+
+/*Less中可以选择器嵌套，也就是混合，一个可以通过将名称放入另一个中得以执行*/
+
+/*混合中还可以带参数，但是有的时候参数可省，有的不可。如下*/
+.border_02(@border_width){
+    border: solid yellow @border_width;
+}
+.test_02{
+    .border_02(8px);
+}
+
+.border_03(@border_width:10px){
+    border: 4px pink @border_width;
+}
+.test_03{
+    .border_03();
+}
+
+/*用混合写法的好处，主要体现在css3*/
+.border_radius(@radius:10px){
+    -webkit-border-radius:@radius;
+       -moz-border-radius:@radius;
+        -ms-webkit-radius:@radius;
+            border-radius:@radius;
+}
+.radius_test{
+    width: 100px;
+    height: 80px;
+    background: blue;
+
+    .border_radius();
+}
+
+/*匹配模式*/
+.triangle(top,@w:5px,@c:#ccc){
+    border-width: @w;
+    border-color: transparent transparent @c transparent;
+    border-style: dashed dashed solid dashed;
+}
+
