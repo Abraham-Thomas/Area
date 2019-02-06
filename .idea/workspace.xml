@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab864e41-728f-4aeb-aa25-894b8bd7a21e" name="Default Changelist" comment="2019/1/23">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ab864e41-728f-4aeb-aa25-894b8bd7a21e" name="Default Changelist" comment="2019/1/23" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -182,6 +180,7 @@
       <workItem from="1549162106381" duration="7619000" />
       <workItem from="1549186758030" duration="6633000" />
       <workItem from="1549288242575" duration="35000" />
+      <workItem from="1549334401887" duration="130000" />
     </task>
     <task id="LOCAL-00001" summary="初级JavaScript信息滚动">
       <created>1547724702339</created>
@@ -250,7 +249,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119933000" />
+    <option name="totallyTimeSpent" value="120063000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
