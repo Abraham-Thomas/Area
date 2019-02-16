@@ -24,8 +24,9 @@
 
 
 ### 文字超链接
-  给一段文字加入超链接的格式是这样的 [ 要显示的文字 ]( 链接的地址 )。
+  给一段文字加入超链接的格式是这样的 \[ 要显示的文字 \]\( 链接的地址 \)。
 > 例子
+  \[我的Github\]\(https://github.com/Abraham-Thomas\)
   [我的Github](https://github.com/Abraham-Thomas)
 
 
@@ -45,6 +46,7 @@
 
   https://github.com/ 你的用户名 / 你的项目名 / raw / 分支名 / 存放图片的文件夹 / 该文件夹下的图片
 > 例子
+  \![]\(https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif\)
   ![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
 
   给图片加上超链接，一点点变化
@@ -52,13 +54,12 @@
   [![baidu]](http://baidu.com)[baidu]:http://www.baidu.com/img/bdlogo.gif "百度Logo"  
 
 
-
-
 ### 圆点符
   在GitHub的markdown语法里也支持使用圆点符。编辑的时候使用的是星号 *
 > 例子
   * Fullname: Abraham-Thomas
   * Gender: male
+
 
 ##### 此外还有二级圆点和三级圆点。就是多加一个Tab。
 > 例子
@@ -78,20 +79,16 @@
 >>>> jQuery
 
 
-### 插入代码片段
-  我们需要在代码的上一行和下一行用` `` 标记。``` 不是三个单引号，而是数字1左边，Tab键上面的键。要实现语法高亮那么只要在 ``` 之后加上你的编程语言即可（忽略大小写）
+### 分割线
+  如果我们想用分割线对内容进行分割，我们可以在单独一行里输入3个或以上的短横线、星号或者下划线实现。短横线和星号之间可以输入任意空格。以下每一行都产生一条水平分割线。
 
 
-
-
-
-
-
-
-  注意你的想法，因为它能决定你的言辞和行动。<br>
+<br>
+<br>
+  `注意你的想法，因为它能决定你的言辞和行动。<br>
   注意你的言辞和行动，因为它能主导你的行为。<br>
   注意你的行为，因为它能变成你的习惯。<br>
   注意你的习惯，因为他能塑造你的性格。<br>
-  注意你的性格，因为它能决定你的命运。<br>
+  注意你的性格，因为它能决定你的命运。`<br>
 
   									——————撒切尔夫人
