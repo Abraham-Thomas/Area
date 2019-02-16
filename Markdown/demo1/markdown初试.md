@@ -26,7 +26,7 @@
 ### 文字超链接
   给一段文字加入超链接的格式是这样的 \[ 要显示的文字 \]\( 链接的地址 \)。
 > 例子
-  \[我的Github\]\(https://github.com/Abraham-Thomas\)
+  \[我的Github\]\(https://github.com/Abraham-Thomas)<br>
   [我的Github](https://github.com/Abraham-Thomas)
 
 
@@ -34,10 +34,12 @@
   即 叹号! + 方括号[ ] + 括号( ) 其中叹号里是图片的URL。如果不加叹号! ,就会变成普通文本了。
   在方括号里可以加入一些标识性的信息
 > 例子
+  \!\[baidu\]\(http://www.baidu.com/img/bdlogo.gif)<br>
   ![baidu](http://www.baidu.com/img/bdlogo.gif)  
 
   在URL后面，加一个双引号包围的字符串，显示图片描述文字：
 > 例子
+  \!\[baidu\]\(http://www.baidu.com/img/bdlogo.gif "百度logo")<br>
   ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")  
 
   有时候我们想显示一个GitHub仓库(或者说项目)里的图片而不是一张其他来源网络图片，因为其他来源的URL很可能会失效。那么如何显示一个GitHub项目里的图片呢？
@@ -46,7 +48,7 @@
 
   https://github.com/ 你的用户名 / 你的项目名 / raw / 分支名 / 存放图片的文件夹 / 该文件夹下的图片
 > 例子
-  \![]\(https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif\)
+  \![]\(https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)<br>
   ![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
 
   给图片加上超链接，一点点变化
@@ -81,14 +83,18 @@
 
 ### 分割线
   如果我们想用分割线对内容进行分割，我们可以在单独一行里输入3个或以上的短横线、星号或者下划线实现。短横线和星号之间可以输入任意空格。以下每一行都产生一条水平分割线。
+> 例子
+  ---
+  ***
+  ___
 
 
 <br>
 <br>
-  `注意你的想法，因为它能决定你的言辞和行动。<br>
-  注意你的言辞和行动，因为它能主导你的行为。<br>
-  注意你的行为，因为它能变成你的习惯。<br>
-  注意你的习惯，因为他能塑造你的性格。<br>
-  注意你的性格，因为它能决定你的命运。`<br>
+  `注意你的想法，因为它能决定你的言辞和行动;`<br>
+  `注意你的言辞和行动，因为它能主导你的行为。`<br>
+  `注意你的行为，因为它能变成你的习惯。`<br>
+  `注意你的习惯，因为他能塑造你的性格。`<br>
+  `注意你的性格，因为它能决定你的命运。`<br>
 
   									——————撒切尔夫人
