@@ -36,4 +36,6 @@ font-family: "PingFang SC", "Microsoft Yahei", serif;
 }
 ```
 
-**行高：**
+**背景：**背景颜色、渐变色背景、	多背景叠加、背景图片和属性（雪碧图，优化性能，减少http请求），base64（图片转化为文本，适用场景比较小的图标，虽然可以优化http请求，但是增大了图片体积和解码开销）
+
+渐变：linear-gradient(to right, red, green); linear-gradient(xxdeg, red, green);可以从方向和角度进行设置，颜色可以设置多个，渐变还可以叠加
