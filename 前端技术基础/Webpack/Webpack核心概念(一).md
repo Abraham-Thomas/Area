@@ -1,4 +1,4 @@
-# Webpack核心概念
+# Webpack核心概念（一）
 
 ### loader
 
@@ -143,3 +143,130 @@ style-loader会把合成的css挂载到页面的\<head>部分。
 postcss-loader，Loader for [webpack](https://webpack.js.org/) to process CSS with [PostCSS](https://postcss.org/)。用法参见官网。
 
 阅读documentation-->guides-->asset management部分和documentation-->loader-->css loader，sass-loader等。
+
+### plugins（让打包更加的便捷）
+
+**HtmlWebpackPlugin**
+
+用法，先安装（npm install --save-dev html-webpack-plugin）
+
+```javascript
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+var path = require('path');
+
+module.exports = {
+  entry: 'index.js',
+  output: {
+    path: path.resolve(__dirname, './dist'),
+    filename: 'index_bundle.js'
+  },
+  plugins: [new HtmlWebpackPlugin()]
+};
+```
+
+会在打包目录中自动生成html文件，并将打包好的js文件引入。
+
+也可在plugins中引入模板对象：
+
+```
+plugins: [new HtmlWebpackPlugin({
+    template: 'src/index.html'
+})]
+```
+
+表示打包好的html以src目录下的index.html为模板生成。
+
+
+
+**CleanWebpackPlugin**，这不是官方推荐的插件，属于第三方
+
+安装，（npm install clean-webpack-plugin -D）
+
+```javascript
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanwebpackPlugin = require('clean-webpack-plugin');
+var path = require('path');
+
+module.exports = {
+  entry: 'index.js',
+  output: {
+    path: path.resolve(__dirname, './dist'),
+    filename: 'index_bundle.js'
+  },
+    plugins: [new HtmlWebpackPlugin({
+        	template: 'src/index.html'
+    	}), new CleanwebpackPlugin(['dist'])
+    ]
+};
+```
+
+这里面有个参数['dist']，表示在打包之前删除dist目录下所有内容。
+
+官网还有很多推荐的插件，需要的时候可以参考官网。
+
+### Entry&&Output
+
+之前已经接触过，Usage: `entry: string|Array<string>`，可以是字符串，也可以是数组。
+
+```javascript
+module.exports = {
+  entry: './path/to/my/entry/file.js'
+};
+```
+
+字符串其实也可以用一种对象的形式表现：
+
+```javascript
+module.exports = {
+  entry: {
+    main: './path/to/my/entry/file.js'
+  }
+};
+```
+
+如果想要打包多个入口文件，需要在output中设置占位符，[name].js，（之前我们打包的都是一个入口文件，所以直接写成bundle.js，现在可以使用占位符灵活运用）如下：
+
+```javascript
+module.exports = {
+  entry: {
+    app: './src/app.js',
+    search: './src/search.js'
+  },
+  output: {
+    filename: '[name].js',
+    path: __dirname + '/dist'
+  }
+};
+
+// writes to disk: ./dist/app.js, ./dist/search.js
+```
+
+如果想把静态资源放到CDN上，可以在output中配置：
+
+```javascript
+module.exports = {
+  //...
+  output: {
+    path: '/home/proj/cdn/assets/[hash]',
+    publicPath: 'https://cdn.example.com/assets/[hash]/'
+  }
+};
+```
+
+### SourceMap
+
+它是一个**映射关系**，可以知道打包文件对应的打包前的文件的问题。可在配置文件中设置：
+
+```javascript
+module.exports = {
+  //...
+  devtool: 'source-map'
+};
+```
+
+配置后打包可在dist目录下找到一个.map文件。不过速度会变慢，因为要构建对应关系，可以用cheap-source-map等，eval最快（但是针对比较复杂的代码，提示出的内容可能不全面）。
+
+开发模式（mode为developme）推荐使用cheap-module-eval-source-map，提示较全面，速度也相对较快，不过一般上线的代码（mode为production）没有必要存在映射，但也可设置cheap-module-source-map，官网上支持production模式使用。
+
+**devtool更详细的用法参见官网。**
+

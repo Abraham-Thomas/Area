@@ -72,7 +72,7 @@ module.exports = {
 
 阅读官网，可以先阅读documentation-->Guides的Getting started部分。
 
-另外，在之前的配置文件中，还可以设置mode项，该项有两个值，production和development。前者表示打包成压缩文件，后者表示打包成正常文件。默认是前者。
+另外，在之前的配置文件中，还可以设置mode项，该项有两个值，production和development。前者表示打包成压缩文件，后者表示打包成正常文件。默认是前者。一般要将代码放到线上的画，可使用production。
 
 ```
 const path = require('path');
