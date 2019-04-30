@@ -1,3 +1,0 @@
-虽然text/javascript和text/ecmascript都已经不被推荐使用，但人们一直以来使用的都还是text/javascript。实际上，服务器在传送JavaScript文件时使用的MIME类型通常是application/x-javascript，但在type中设置这个值却可能导致脚本被忽略。另外，在非IE浏览器中还可以使用：application/javascript和application
-
-/ecmascript。考虑到约定俗称和最大限度浏览器兼容性，目前type属性的值依旧还是text/javascript。不过，这个属性不是必须的，如果没有指定，默认为text/javascript。
