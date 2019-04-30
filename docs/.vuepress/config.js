@@ -108,32 +108,50 @@ module.exports = {
           '', // accumulate文件夹的README.md 不是下拉框形式
           '/blog/thinking/技术是好是坏',
           '/blog/thinking/关注自然环境',
+          '/blog/thinking/漫步华尔街',
           '/blog/thinking/提升幸福感的方法',
-          // {
-          //   title: '随想录',
-          //   children: [
-          //     // 以docs为根目录来查找文件 
-          //     // 上面地址查找的是：docs>accumulate>JS>test.md 文件
-          //     // 自动加.md 每个子选项的标题 是该md文件中的第一个h1/h2/h3标题
-          //   ]
-          // }
         ],
         // docs文件夹下面的文件夹 这是第二组侧边栏 跟第一组侧边栏没关系
         '/blog/ownLog/': [
           '', 
           '/blog/ownLog/使用nvm控制node版本',
-          '/blog/ownLog/终于恢复了GIthub的访问',
+          '/blog/ownLog/终于恢复了Github的访问',
           '/blog/ownLog/vuepress中的README',
         ],
         '/blog/record/': [
           '', // accumulate文件夹的README.md 不是下拉框形式
           '/blog/record/关于构建工具',
-          '/blog/record/JS运行机制',
-          '/blog/record/JS面向对象',
-          '/blog/record/原型链',
-          '/blog/record/渲染机制',
-          '/blog/record/页面性能与错误监控',
+          '/blog/record/Webpack简介',
           '/blog/record/MVVM框架',
+          {
+            title: '浏览器与HTTP',
+            collapsable: true,
+            children: [
+              '/blog/record/Browser/浏览器组成',
+              '/blog/record/Browser/渲染机制',
+              '/blog/record/Browser/HTTP文件缓存和localStorage',
+              '/blog/record/Browser/HTTP头部域信息',
+              '/blog/record/Browser/长连接与HTTP特性',
+              '/blog/record/Browser/AJAX与XMLHttpRequest对象',
+              '/blog/record/Browser/页面性能与错误监控',
+              '/blog/record/Browser/Yahoo军规',
+            ]
+          },
+          {
+            title: 'Javascript',
+            collapsable: true,
+            children: [
+              '/blog/record/JS/关于Javascript',
+              '/blog/record/JS/Javascript标签',
+              '/blog/record/JS/严格模式与with',
+              '/blog/record/JS/正则表达式（Regular Expression）',
+              '/blog/record/JS/DOMReady',
+              '/blog/record/JS/JS面向对象',
+              '/blog/record/JS/原型链',
+              '/blog/record/JS/事件',
+              '/blog/record/JS/JS运行机制',
+            ]
+          },
         ],
         '/blog/specification/': [
           '', 
