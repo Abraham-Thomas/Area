@@ -9,14 +9,10 @@ module.exports = {
     lineNumbers: true // 代码块显示行号
   },
   themeConfig: {
-    lastUpdated: 'Last Updated', // string | boolean
     sidebarDepth: 2,
     displayAllHeaders: true,
+    activeHeaderLinks: false, // 默认值：true
     nav: [
-      {
-          text: '主页',
-          link: '/'
-      },
       /**
        * 多级菜单
        * 开头 text 为一级标题
@@ -31,18 +27,22 @@ module.exports = {
             link: '/blog/thinking/'
           },
           {
-            text: '个人日志',
-            link: '/blog/ownLog/'
+            text: '周记',
+            link: '/blog/weekly/'
           },
           {
-            text: '前端杂记',
-            link: '/blog/record/'
+            text: '个人日志',
+            link: '/blog/ownLog/'
           },
           {
             text: '中文技术文档的写作规范',
             link: '/blog/specification/'
           }
         ]
+      },
+      {
+        text: '前端杂记',
+        link: '/blog/record/'
       },
       {
         text: '前端学习资源',
@@ -119,10 +119,22 @@ module.exports = {
           '/blog/ownLog/vuepress中的README',
         ],
         '/blog/record/': [
-          '', // accumulate文件夹的README.md 不是下拉框形式
-          '/blog/record/关于构建工具',
-          '/blog/record/Webpack简介',
-          '/blog/record/MVVM框架',
+          
+          {
+            title: 'Javascript',
+            collapsable: true,
+            children: [
+              '/blog/record/JS/Javascript简介',
+              '/blog/record/JS/Javascript标签',
+              '/blog/record/JS/严格模式与with',
+              '/blog/record/JS/正则表达式（Regular Expression）',
+              '/blog/record/JS/DOMReady',
+              '/blog/record/JS/JS面向对象',
+              '/blog/record/JS/原型链',
+              '/blog/record/JS/事件',
+              '/blog/record/JS/JS运行机制',
+            ]
+          },
           {
             title: '浏览器与HTTP',
             collapsable: true,
@@ -137,21 +149,13 @@ module.exports = {
               '/blog/record/Browser/Yahoo军规',
             ]
           },
-          {
-            title: 'Javascript',
-            collapsable: true,
-            children: [
-              '/blog/record/JS/关于Javascript',
-              '/blog/record/JS/Javascript标签',
-              '/blog/record/JS/严格模式与with',
-              '/blog/record/JS/正则表达式（Regular Expression）',
-              '/blog/record/JS/DOMReady',
-              '/blog/record/JS/JS面向对象',
-              '/blog/record/JS/原型链',
-              '/blog/record/JS/事件',
-              '/blog/record/JS/JS运行机制',
-            ]
-          },
+          '', // 文件夹的README.md 不是下拉框形式
+          '/blog/record/MVVM框架',
+          '/blog/record/小程序',
+          '/blog/record/关于构建工具',
+          '/blog/record/Webpack简介',
+          '/blog/record/项目技术选型分析',
+          
         ],
         '/blog/specification/': [
           '', 

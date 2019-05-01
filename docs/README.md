@@ -9,6 +9,6 @@ features:
 - title: 生活
   details: 生活也是无法统一个说法的东西，就像面向对象一样，每个人都有自己的解释。
 - title: 回报与影响
-  details: 一个人从世界所得到的报酬，取决于他对于这个世界产生的正面影响。
+  details: 从世界获得的报酬与对这个世界的正面影响是强相关的，达芬奇、富兰克林、爱因斯坦等人已经验证了这一点。
 footer: MIT Licensed | Copyright © 2019-present Abraham-Thomas
 ---

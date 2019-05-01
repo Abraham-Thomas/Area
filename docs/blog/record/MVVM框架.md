@@ -24,7 +24,9 @@
 
 ### MVC、MVP与MVVM：
 
-### \<https://juejin.im/post/5b3a3a44f265da630e27a7e6>
+### [推荐链接](https://juejin.im/post/5b3a3a44f265da630e27a7e6)
+
+
 
 ### MVVM双向绑定的原理：
 
