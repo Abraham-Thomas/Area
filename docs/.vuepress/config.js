@@ -175,6 +175,10 @@ module.exports = {
           
           
         ],
+        '/blog/weekly/': [
+          '',
+          '/blog/weekly/开发人员的未来',
+        ]
     }
 
 
