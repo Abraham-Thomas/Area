@@ -27,10 +27,6 @@ module.exports = {
             link: '/blog/thinking/'
           },
           {
-            text: '周记',
-            link: '/blog/weekly/'
-          },
-          {
             text: '个人日志',
             link: '/blog/ownLog/'
           },
@@ -106,6 +102,8 @@ module.exports = {
       // docs文件夹下面的accumulate文件夹 文档中md文件 书写的位置(命名随意)
       '/blog/thinking/': [
           '', // accumulate文件夹的README.md 不是下拉框形式
+          '/blog/thinking/纸质书的去向',
+          '/blog/thinking/开发人员的未来',
           '/blog/thinking/技术是好是坏',
           '/blog/thinking/关注自然环境',
           '/blog/thinking/漫步华尔街',
@@ -175,10 +173,6 @@ module.exports = {
           
           
         ],
-        '/blog/weekly/': [
-          '',
-          '/blog/weekly/开发人员的未来',
-        ]
     }
 
 
