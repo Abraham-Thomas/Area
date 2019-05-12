@@ -102,12 +102,12 @@ module.exports = {
       // docs文件夹下面的accumulate文件夹 文档中md文件 书写的位置(命名随意)
       '/blog/thinking/': [
           '', // accumulate文件夹的README.md 不是下拉框形式
-          '/blog/thinking/纸质书的去向',
-          '/blog/thinking/开发人员的未来',
           '/blog/thinking/技术是好是坏',
           '/blog/thinking/关注自然环境',
           '/blog/thinking/漫步华尔街',
           '/blog/thinking/提升幸福感的方法',
+          '/blog/thinking/开发人员的未来',
+          '/blog/thinking/纸质书的去向',
         ],
         // docs文件夹下面的文件夹 这是第二组侧边栏 跟第一组侧边栏没关系
         '/blog/ownLog/': [
@@ -115,6 +115,7 @@ module.exports = {
           '/blog/ownLog/使用nvm控制node版本',
           '/blog/ownLog/终于恢复了Github的访问',
           '/blog/ownLog/vuepress中的README',
+          '/blog/ownLog/关于系统文件hosts',
         ],
         '/blog/record/': [
           
