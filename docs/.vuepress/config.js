@@ -66,7 +66,8 @@ module.exports = {
         ],
         // docs文件夹下面的文件夹 这是第二组侧边栏 跟第一组侧边栏没关系
         '/ownLog/': [
-          '', 
+          '',
+          '/ownLog/对比小程序的开发者工具', 
           '/ownLog/使用nvm控制node版本',
           '/ownLog/终于恢复了Github的访问',
           '/ownLog/vuepress中的README',
