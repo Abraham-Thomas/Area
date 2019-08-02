@@ -24,32 +24,40 @@ module.exports = {
         link: '/thinking/'
       },
       {
-        text: '一种前端',
+        text: '一个前端',
         items: [
           {
-            text: '个人笔记',
-            link: '/record/'
+            text: 'JavaScript',
+            link: '/web/JavaScript/'
+          },
+          {
+            text: 'Vue',
+            link: '/web/Vue/'
+          },
+          {
+            text: '浏览器与HTTP',
+            link: '/web/Browser/'
+          },
+          {
+            text: 'TypeScript',
+            link: '/web/TypeScript/'
+          },
+          {
+            text: '前端杂谈',
+            link: '/web/前端杂谈/'
           },
           {
             text: '日志记录',
-            link: '/ownLog/'
+            link: '/web/ownLog/'
           },
           {
             text: '中文技术文档的写作规范',
             link: '/specification/'
-          },
-          {
-            text: '掘金',
-            link: 'https://juejin.im/timeline'
-          },
-          {
-            text: 'stackoverflow',
-            link: 'https://stackoverflow.com/'
           }
         ]
       },
       {text: 'Github', link: 'https://github.com/Abraham-Thomas'},
-      {text: '语雀', link: 'https://www.yuque.com/explore/headlines'}
+      {text: '掘金', link: 'https://juejin.im/timeline'}
     ],
 
     sidebar:{
@@ -65,74 +73,78 @@ module.exports = {
           '/thinking/提升幸福感的方法',
         ],
         // docs文件夹下面的文件夹 这是第二组侧边栏 跟第一组侧边栏没关系
-        '/ownLog/': [
-          '',
-          '/ownLog/重新开始freeCodeCamp',
-          '/ownLog/对比小程序的开发者工具', 
-          '/ownLog/使用nvm控制node版本',
-          '/ownLog/终于恢复了Github的访问',
-          '/ownLog/vuepress中的README',
-          '/ownLog/关于系统文件hosts',
-        ],
-        '/record/': [
+        '/web/': [
           '',
           {
-            title: 'TypeScript',
+            title: 'JavaScript',
             collapsable: true,
             children: [
-              '/record/TypeScript/基础',
-              '/record/TypeScript/interface',
-              '/record/TypeScript/class',
-              '/record/TypeScript/function',
-              '/record/TypeScript/generic',
-            ]
-          },
-          {
-            title: 'Javascript',
-            collapsable: true,
-            children: [
-              '/record/JavaScript/Javascript简介',
-              '/record/JavaScript/Javascript标签',
-              '/record/JavaScript/严格模式与with',
-              '/record/JavaScript/正则表达式（Regular Expression）',
-              '/record/JavaScript/DOMReady',
-              '/record/JavaScript/JS面向对象',
-              '/record/JavaScript/原型链',
-              '/record/JavaScript/事件',
-              '/record/JavaScript/JS运行机制',
+              '/web/JavaScript/Javascript简介',
+              '/web/JavaScript/原始与对象以及类型转换',
+              '/web/JavaScript/Javascript标签',
+              '/web/JavaScript/严格模式与with',
+              '/web/JavaScript/正则表达式（Regular Expression）',
+              '/web/JavaScript/DOMReady',
+              '/web/JavaScript/JS面向对象',
+              '/web/JavaScript/原型链',
+              '/web/JavaScript/事件',
+              '/web/JavaScript/JS运行机制',
             ]
           },
           {
             title: '浏览器与HTTP',
             collapsable: true,
             children: [
-              '/record/Browser/浏览器组成',
-              '/record/Browser/渲染机制',
-              '/record/Browser/HTTP文件缓存和localStorage',
-              '/record/Browser/HTTP头部域信息',
-              '/record/Browser/长连接与HTTP特性',
-              '/record/Browser/AJAX与XMLHttpRequest对象',
-              '/record/Browser/页面性能与错误监控',
-              '/record/Browser/Yahoo军规',
+              '/web/Browser/浏览器组成',
+              '/web/Browser/渲染机制',
+              '/web/Browser/HTTP文件缓存和localStorage',
+              '/web/Browser/HTTP头部域信息',
+              '/web/Browser/长连接与HTTP特性',
+              '/web/Browser/AJAX与XMLHttpRequest对象',
+              '/web/Browser/页面性能与错误监控',
+              '/web/Browser/Yahoo军规',
+            ]
+          },
+          {
+            title: 'TypeScript',
+            collapsable: true,
+            children: [
+              '/web/TypeScript/基础',
+              '/web/TypeScript/interface',
+              '/web/TypeScript/class',
+              '/web/TypeScript/function',
+              '/web/TypeScript/generic',
             ]
           },
           {
             title: '前端杂谈',
             collapsable: true,
             children: [
-              '/record/前端杂谈/项目技术选型分析',
-              '/record/前端杂谈/关于构建工具',
-              '/record/前端杂谈/MVVM框架',
-              '/record/前端杂谈/小程序',
-              '/record/前端杂谈/Webpack简介',
+              '/web/前端杂谈/项目技术选型分析',
+              '/web/前端杂谈/关于构建工具',
+              '/web/前端杂谈/MVVM框架',
+              '/web/前端杂谈/小程序',
+              '/web/前端杂谈/Webpack简介',
             ]
           },
+          {
+            title: '日志记录',
+            collapsable: true,
+            children: [
+              '/web/ownLog/重新开始freeCodeCamp',
+              '/web/ownLog/对比小程序的开发者工具', 
+              '/web/ownLog/使用nvm控制node版本',
+              '/web/ownLog/终于恢复了Github的访问',
+              '/web/ownLog/vuepress中的README',
+              '/web/ownLog/关于系统文件hosts',
+            ]
+          }
         ],
         '/specification/': [
           '', 
           {
             title: '目录',
-            collapsable: false,
+            collapsable: true,
             children: [
               '/specification/docs/title',
               '/specification/docs/structure',
@@ -161,20 +173,20 @@ module.exports = {
     //     title: '个人日志',
     //     collapsable: false,
     //     children: [
-    //       '/blog/ownLog/终于恢复了GIthub的访问',
+    //       '/blog/web/ownLog/终于恢复了GIthub的访问',
     //     ]
     //   },
     //   {
-    //     title: '前端杂记',
+    //     title: 'web杂记',
     //     collapsable: false,
     //     children: [
-    //       '/blog/前端杂记/关于构建工具',
-    //       '/blog/前端杂记/JS运行机制',
-    //       '/blog/前端杂记/JS面向对象',
-    //       '/blog/前端杂记/原型链',
-    //       '/blog/前端杂记/渲染机制',
-    //       '/blog/前端杂记/页面性能与错误监控',
-    //       '/blog/前端杂记/MVVM框架',
+    //       '/blog/web杂记/关于构建工具',
+    //       '/blog/web杂记/JS运行机制',
+    //       '/blog/web杂记/JS面向对象',
+    //       '/blog/web杂记/原型链',
+    //       '/blog/web杂记/渲染机制',
+    //       '/blog/web杂记/页面性能与错误监控',
+    //       '/blog/web杂记/MVVM框架',
     //     ]
     //   },
     //   {
