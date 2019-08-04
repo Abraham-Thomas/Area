@@ -20,10 +20,6 @@ module.exports = {
        * link 为链接，注意带 /
        */
       {
-        text: 'Thinking',
-        link: '/thinking/'
-      },
-      {
         text: '一个前端',
         items: [
           {
@@ -31,8 +27,8 @@ module.exports = {
             link: '/web/JavaScript/'
           },
           {
-            text: 'Vue',
-            link: '/web/Vue/'
+            text: 'IntoVue',
+            link: '/web/IntoVue/'
           },
           {
             text: '浏览器与HTTP',
@@ -56,8 +52,11 @@ module.exports = {
           }
         ]
       },
-      {text: 'Github', link: 'https://github.com/Abraham-Thomas'},
-      {text: '掘金', link: 'https://juejin.im/timeline'}
+      {
+        text: 'Thinking',
+        link: '/thinking/'
+      },
+      {text: 'Github', link: 'https://github.com/Abraham-Thomas'}
     ],
 
     sidebar:{
@@ -81,14 +80,21 @@ module.exports = {
             children: [
               '/web/JavaScript/Javascript简介',
               '/web/JavaScript/原始与对象以及类型转换',
-              '/web/JavaScript/Javascript标签',
-              '/web/JavaScript/严格模式与with',
-              '/web/JavaScript/正则表达式（Regular Expression）',
+              '/web/JavaScript/闭包与原型链',
+              '/web/JavaScript/一点点ES6',
+              '/web/JavaScript/原型链的继承优化',
               '/web/JavaScript/DOMReady',
-              '/web/JavaScript/JS面向对象',
-              '/web/JavaScript/原型链',
-              '/web/JavaScript/事件',
-              '/web/JavaScript/JS运行机制',
+              '/web/JavaScript/什么样的事件',
+              '/web/JavaScript/你懂得异步',
+              '/web/JavaScript/是正则表达式吗'
+            ]
+          },
+          {
+            title: 'IntoVue',
+            collapsable: true,
+            children: [
+              '/web/IntoVue/必须明白的vue基础',
+              '/web/IntoVue/进击响应式原理及编译'
             ]
           },
           {

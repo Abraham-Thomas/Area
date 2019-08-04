@@ -2,7 +2,7 @@
 home: true
 heroImage: ./img/cat.jpg
 actionText: New way →
-actionLink: /thinking/
+actionLink: /web/
 features:
 - title: Procedure
   details: Procedure is a way of self-expressio.
