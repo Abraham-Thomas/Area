@@ -35,12 +35,12 @@ module.exports = {
             link: '/web/Browser/'
           },
           {
-            text: 'TypeScript',
-            link: '/web/TypeScript/'
+            text: 'ComeNode',
+            link: '/web/Node/'
           },
           {
-            text: '前端杂谈',
-            link: '/web/前端杂谈/'
+            text: 'TypeScript',
+            link: '/web/TypeScript/'
           },
           {
             text: '日志记录',
@@ -94,14 +94,19 @@ module.exports = {
             collapsable: true,
             children: [
               '/web/IntoVue/必须明白的vue基础',
-              '/web/IntoVue/进击响应式原理及编译'
+              '/web/IntoVue/组件间的通信',
+              '/web/IntoVue/进击响应式原理及编译',
+              '/web/IntoVue/聊一聊MVVM',
+              '/web/IntoVue/开发中的门道',
+              '/web/IntoVue/Vue-router的两种模式',
+              '/web/IntoVue/了解一点点VueX源码'
             ]
           },
           {
             title: '浏览器与HTTP',
             collapsable: true,
             children: [
-              '/web/Browser/浏览器组成',
+              '/web/Browser/浏览器的组成',
               '/web/Browser/渲染机制',
               '/web/Browser/HTTP文件缓存和localStorage',
               '/web/Browser/HTTP头部域信息',
@@ -109,6 +114,13 @@ module.exports = {
               '/web/Browser/AJAX与XMLHttpRequest对象',
               '/web/Browser/页面性能与错误监控',
               '/web/Browser/Yahoo军规',
+            ]
+          },
+          {
+            title: 'ComeNode',
+            collapsable: true,
+            children: [
+              '/web/Node/先了解一点',
             ]
           },
           {
@@ -120,17 +132,6 @@ module.exports = {
               '/web/TypeScript/class',
               '/web/TypeScript/function',
               '/web/TypeScript/generic',
-            ]
-          },
-          {
-            title: '前端杂谈',
-            collapsable: true,
-            children: [
-              '/web/前端杂谈/项目技术选型分析',
-              '/web/前端杂谈/关于构建工具',
-              '/web/前端杂谈/MVVM框架',
-              '/web/前端杂谈/小程序',
-              '/web/前端杂谈/Webpack简介',
             ]
           },
           {
@@ -163,52 +164,5 @@ module.exports = {
           }
         ],
     }
-
-
-    // sidebar: [
-    //   {
-    //     title: '随想录',
-    //     collapsable: false,
-    //     children: [
-    //       '/blog/thinking/技术是好是坏',
-    //       '/blog/thinking/关注自然环境',
-    //       '/blog/thinking/提升幸福感的方法',
-    //     ]
-    //   },
-    //   {
-    //     title: '个人日志',
-    //     collapsable: false,
-    //     children: [
-    //       '/blog/web/ownLog/终于恢复了GIthub的访问',
-    //     ]
-    //   },
-    //   {
-    //     title: 'web杂记',
-    //     collapsable: false,
-    //     children: [
-    //       '/blog/web杂记/关于构建工具',
-    //       '/blog/web杂记/JS运行机制',
-    //       '/blog/web杂记/JS面向对象',
-    //       '/blog/web杂记/原型链',
-    //       '/blog/web杂记/渲染机制',
-    //       '/blog/web杂记/页面性能与错误监控',
-    //       '/blog/web杂记/MVVM框架',
-    //     ]
-    //   },
-    //   {
-    //     title: '中文技术文档的写作规范',
-    //     collapsable: true,
-    //     children: [
-    //       '/blog/中文技术文档的写作规范/docs/title',
-    //       '/blog/中文技术文档的写作规范/docs/structure',
-    //       '/blog/中文技术文档的写作规范/docs/paragraph',
-    //       '/blog/中文技术文档的写作规范/docs/text',
-    //       '/blog/中文技术文档的写作规范/docs/marks',
-    //       '/blog/中文技术文档的写作规范/docs/number',
-    //       '/blog/中文技术文档的写作规范/docs/reference',
-    //     ]
-    //   }
-    // ]
-
   }
 }
