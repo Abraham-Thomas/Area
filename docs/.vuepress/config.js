@@ -39,10 +39,6 @@ module.exports = {
             link: '/web/Node/'
           },
           {
-            text: 'TypeScript',
-            link: '/web/TypeScript/'
-          },
-          {
             text: '日志记录',
             link: '/web/ownLog/'
           },
@@ -121,17 +117,6 @@ module.exports = {
             collapsable: true,
             children: [
               '/web/Node/先了解一点',
-            ]
-          },
-          {
-            title: 'TypeScript',
-            collapsable: true,
-            children: [
-              '/web/TypeScript/基础',
-              '/web/TypeScript/interface',
-              '/web/TypeScript/class',
-              '/web/TypeScript/function',
-              '/web/TypeScript/generic',
             ]
           },
           {
