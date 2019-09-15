@@ -25,6 +25,10 @@ module.exports = {
        * link 为链接，注意带 /
        */
       {
+        text: 'design',
+        link: '/design/'
+      },
+      {
         text: 'Thinking',
         link: '/thinking/'
       },
@@ -43,7 +47,16 @@ module.exports = {
     ],
 
     sidebar:{
-      // docs文件夹下面的accumulate文件夹 文档中md文件 书写的位置(命名随意)
+      '/design/': [
+        '', // accumulate文件夹的README.md 不是下拉框形式
+        {
+          title: '2019design',
+          collapsable: true,
+          children: [
+            '/design/2019design/优秀的设计',
+          ]
+        },
+      ],
       '/thinking/': [
         '', // accumulate文件夹的README.md 不是下拉框形式
         {
