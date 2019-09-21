@@ -24,7 +24,7 @@ footer: MIT Licensed | Copyright © 2019-present Abraham-Thomas
 ### to do list
 
 ```
-1、python
+1、产品
 2、交互设计
 ```
 

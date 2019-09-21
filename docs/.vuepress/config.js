@@ -63,6 +63,7 @@ module.exports = {
           title: '2019',
           collapsable: true,
           children: [
+            '/thinking/2019/选择过多的困惑',
             '/thinking/2019/虚度光阴',
             '/thinking/2019/开发人员的未来',
             '/thinking/2019/纸质书的去向',
