@@ -65,10 +65,9 @@ module.exports = {
           children: [
             '/thinking/2019/选择过多的困惑',
             '/thinking/2019/虚度光阴',
-            '/thinking/2019/开发人员的未来',
             '/thinking/2019/纸质书的去向',
             '/thinking/2019/技术是好是坏',
-            '/thinking/2019/关注自然环境'
+            '/thinking/2019/关注自然环境',
           ]
         },
         {
@@ -80,15 +79,13 @@ module.exports = {
             '/thinking/2018/投资的非理性',
             '/thinking/2018/网贷产品的深情告白',
             '/thinking/2018/关于乐观',
-            '/thinking/2018/选择过多',
-            '/thinking/2018/误解自律',
           ]
         }
       ],
       '/reading/': [
         '',
         {
-          title: '2019以前',
+          title: 'Before2019',
           collapsable: true,
           children: [
             '/reading/before2019/提升幸福感的方法',

@@ -13,9 +13,9 @@ features:
 footer: MIT Licensed | Copyright © 2019-present Abraham-Thomas
 ---
 
-### 近期更新
+### Recent updates
 ```
-我将有关技术的文档全部移到了另一个仓库，访问的话可通过点击导航栏上的My-word进行查看。
+I moved all the documentation about the technology to another repository, which can be viewed by clicking My-word on the navigation bar.
 
 ```
 
@@ -23,8 +23,8 @@ footer: MIT Licensed | Copyright © 2019-present Abraham-Thomas
 
 ### to do list
 
-```
-1、产品
-2、交互设计
-```
+| list               | progress      | rate |
+| ------------------ | ------------- | ---- |
+| Product            | User scene    | 23%  |
+| Interaction design | Method theory | 44%  |
 
