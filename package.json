@@ -1,8 +1,9 @@
 {
   "scripts": {
     "serve": "vuepress dev docs",
+    "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "d": "bash deploy.sh"
+    "deploy": "bash deploy.sh"
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.0-rc.1",

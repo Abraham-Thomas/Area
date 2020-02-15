@@ -25,6 +25,7 @@ I moved all the documentation about the technology to another repository, which 
 
 | list               | progress      | rate |
 | ------------------ | ------------- | ---- |
-| Product            | User scene    | 23%  |
-| Interaction design | Method theory | 44%  |
+| Product            | Functional structure diagram   | 50%  |
+| Artifical Inteligence | Machine learning | 8%  |
+| Cross-border e-commerce | Method theory | 5%  |
 

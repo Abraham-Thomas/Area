@@ -25,45 +25,43 @@ module.exports = {
        * link 为链接，注意带 /
        */
       {
-        text: 'design',
-        link: '/design/'
-      },
-      {
-        text: 'Thinking',
+        text: '思考',
         link: '/thinking/'
       },
       {
-        text: 'Reading',
+        text: '我的阅读',
         link: '/reading/'
       },
       {
-        text: 'My-word', link: 'https://github.com/Abraham-Thomas/my-word'
+        text: '个人月刊',
+        link: '/monthly/'
+      },
+      {
+        text: '关于我',
+        link: '/aboutme/'
       },
       {
         text: '文档规范',
         link: '/specification/'
       },
-      {text: 'Github', link: 'https://github.com/Abraham-Thomas'}
+      {
+        text: 'Github',
+        link: 'https://github.com/Abraham-Thomas'
+      }
     ],
 
     sidebar:{
-      '/design/': [
-        '', // accumulate文件夹的README.md 不是下拉框形式
-        {
-          title: '2019design',
-          collapsable: true,
-          children: [
-            '/design/2019design/优秀的设计',
-          ]
-        },
-      ],
       '/thinking/': [
         '', // accumulate文件夹的README.md 不是下拉框形式
         {
-          title: '2019',
-          collapsable: true,
+          title: '2020',
           children: [
-            '/thinking/2019/选择过多的困惑',
+            '/thinking/2020/产品思维：自私的另一种反馈',
+          ]
+        },
+        {
+          title: '2019',
+          children: [
             '/thinking/2019/虚度光阴',
             '/thinking/2019/纸质书的去向',
             '/thinking/2019/技术是好是坏',
@@ -72,7 +70,6 @@ module.exports = {
         },
         {
           title: '2018',
-          collapsable: true,
           children: [
             '/thinking/2018/对于产品的思考',
             '/thinking/2018/你想要什么',
@@ -85,14 +82,28 @@ module.exports = {
       '/reading/': [
         '',
         {
-          title: 'Before2019',
-          collapsable: true,
+          title: '2020以前',
           children: [
-            '/reading/before2019/提升幸福感的方法',
-            '/reading/before2019/漫步华尔街',
-            '/reading/before2019/浅谈用户思维（三）',
-            '/reading/before2019/浅谈用户思维（二）',
-            '/reading/before2019/浅谈用户思维（一）',
+            '/reading/before2020/提升幸福感的方法',
+            '/reading/before2020/漫步华尔街',
+            '/reading/before2020/浅谈用户思维（三）',
+            '/reading/before2020/浅谈用户思维（二）',
+            '/reading/before2020/浅谈用户思维（一）',
+          ]
+        },
+        {
+          title: '在2020',
+          children: [
+            '/reading/in2020/优秀的设计',
+          ]
+        }
+      ],
+      '/monthly/': [
+        '',
+        {
+          title: '个人月刊',
+          children: [
+            '/monthly/about2020/February2020',
           ]
         }
       ],
